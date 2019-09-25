@@ -1,0 +1,20 @@
+<script type="text/javascript" language="javascript">
+	
+		
+		var promise = new Promise(function(resolve, reject){
+			const a = "Hello";
+			const b = "Hello"
+			if (a==b) {
+				resolve();
+			}	else {
+				reject();
+			}
+		});
+			promise.
+					then(function(){
+						console.log('Succes, Hello');
+					}).
+					catch(function(){
+						console.log('error, World');
+					});
+	</script>
